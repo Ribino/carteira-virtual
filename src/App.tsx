@@ -109,20 +109,7 @@ function verifyPercents(inputPercents : string){
           </div>
         </div>
       </div>
-      {/* <div id="warningModel"> 
-          <Modal show={show} onHide={handleClose}>
-          <Modal.Header closeButton>
-            
-          </Modal.Header >
-          <Modal.Body>O valor informado excede o total de porcentagem permitido</Modal.Body>
-          <Modal.Footer>
-
-          </Modal.Footer>
-        </Modal>
-      </div> 
-    </div> */}
-
-
+    </div>
 
   );
 }
