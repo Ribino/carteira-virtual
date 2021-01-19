@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import ReactDOM from 'react-dom';
 import '../node_modules/bootstrap/dist/css/bootstrap.css';
 import Card from './components/card';
 import './style.css';
@@ -8,7 +7,6 @@ function App() {
 
   const [renda, setRenda] = useState('0.00');
   const [renderAddCard, setRenderAddCard] = useState(true);
-  const [renderModal, setRenderModal] = useState(false);
   const [labelButtonRenderAddCard, setLabelButtonRenderAddCard ] = useState('+')
   const [card, setCards] = useState([{
     title : "Renda Fixa",
@@ -21,8 +19,7 @@ function App() {
   const [inputTitle , setInputTitle] = useState("");
   const [inputPercents , setInputPercents] = useState("");
 
-  const [show, setShow] = useState(false);
-  const handleClose = () => setShow(false);
+  const [, setShow] = useState(false);
   const handleShow = () => setShow(true);
 
 
