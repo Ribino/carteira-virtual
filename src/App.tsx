@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import ReactDOM from 'react-dom';
-import Modal from 'react-bootstrap/Modal'
 import '../node_modules/bootstrap/dist/css/bootstrap.css';
 import Card from './components/card';
 import './style.css';
@@ -110,7 +109,7 @@ function verifyPercents(inputPercents : string){
           </div>
         </div>
       </div>
-      <div id="warningModel"> 
+      {/* <div id="warningModel"> 
           <Modal show={show} onHide={handleClose}>
           <Modal.Header closeButton>
             
@@ -121,7 +120,7 @@ function verifyPercents(inputPercents : string){
           </Modal.Footer>
         </Modal>
       </div> 
-    </div>
+    </div> */}
 
 
 
